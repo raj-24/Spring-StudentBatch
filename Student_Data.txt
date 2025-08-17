@@ -1,0 +1,292 @@
+[
+  {
+    "studentId": 102,
+    "name": "Rahul Verma",
+    "age": 22,
+    "gender": "Male",
+    "address": {
+      "street": "456 Park Street",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110001"
+    },
+    "subjects": [
+      {
+        "subject_name": "Mathematics",
+        "subject_code": "MTH201",
+        "marks_obtained": 88
+      },
+      {
+        "subject_name": "Physics",
+        "subject_code": "PHY202",
+        "marks_obtained": 75
+      },
+      {
+        "subject_name": "Computer Science",
+        "subject_code": "CSE203",
+        "marks_obtained": 95
+      }
+    ]
+  },
+  {
+    "studentId": 103,
+    "name": "Ananya Sharma",
+    "age": 21,
+    "gender": "Female",
+    "address": {
+      "street": "78 Gandhi Road",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400001"
+    },
+    "subjects": [
+      {
+        "subject_name": "Biology",
+        "subject_code": "BIO101",
+        "marks_obtained": 89
+      },
+      {
+        "subject_name": "Chemistry",
+        "subject_code": "CHE102",
+        "marks_obtained": 84
+      },
+      {
+        "subject_name": "English",
+        "subject_code": "ENG103",
+        "marks_obtained": 91
+      }
+    ]
+  },
+  {
+    "studentId": 104,
+    "name": "Vikram Singh",
+    "age": 23,
+    "gender": "Male",
+    "address": {
+      "street": "22 MG Road",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "pincode": "560001"
+    },
+    "subjects": [
+      {
+        "subject_name": "History",
+        "subject_code": "HIS301",
+        "marks_obtained": 78
+      },
+      {
+        "subject_name": "Political Science",
+        "subject_code": "POL302",
+        "marks_obtained": 82
+      },
+      {
+        "subject_name": "Sociology",
+        "subject_code": "SOC303",
+        "marks_obtained": 85
+      }
+    ]
+  },
+  {
+    "studentId": 105,
+    "name": "Priya Raj",
+    "age": 20,
+    "gender": "Female",
+    "address": {
+      "street": "12 Nehru Nagar",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "pincode": "600001"
+    },
+    "subjects": [
+      {
+        "subject_name": "Economics",
+        "subject_code": "ECO401",
+        "marks_obtained": 90
+      },
+      {
+        "subject_name": "Statistics",
+        "subject_code": "STA402",
+        "marks_obtained": 87
+      },
+      {
+        "subject_name": "Business Studies",
+        "subject_code": "BUS403",
+        "marks_obtained": 92
+      }
+    ]
+  },
+  {
+    "studentId": 106,
+    "name": "Amit Kapoor",
+    "age": 24,
+    "gender": "Male",
+    "address": {
+      "street": "67 Park Avenue",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "pincode": "500001"
+    },
+    "subjects": [
+      {
+        "subject_name": "Physics",
+        "subject_code": "PHY501",
+        "marks_obtained": 80
+      },
+      {
+        "subject_name": "Mathematics",
+        "subject_code": "MTH502",
+        "marks_obtained": 92
+      },
+      {
+        "subject_name": "Computer Science",
+        "subject_code": "CSE503",
+        "marks_obtained": 95
+      }
+    ]
+  },
+  {
+    "studentId": 107,
+    "name": "Ritika Bose",
+    "age": 22,
+    "gender": "Female",
+    "address": {
+      "street": "34 Central Avenue",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "pincode": "700001"
+    },
+    "subjects": [
+      {
+        "subject_name": "Biotechnology",
+        "subject_code": "BIO601",
+        "marks_obtained": 88
+      },
+      {
+        "subject_name": "Environmental Science",
+        "subject_code": "ENV602",
+        "marks_obtained": 79
+      },
+      {
+        "subject_name": "Microbiology",
+        "subject_code": "MIC603",
+        "marks_obtained": 85
+      }
+    ]
+  },
+  {
+    "studentId": 108,
+    "name": "Arjun Nair",
+    "age": 23,
+    "gender": "Male",
+    "address": {
+      "street": "89 MG Road",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411001"
+    },
+    "subjects": [
+      {
+        "subject_name": "Commerce",
+        "subject_code": "COM701",
+        "marks_obtained": 91
+      },
+      {
+        "subject_name": "Accounting",
+        "subject_code": "ACC702",
+        "marks_obtained": 85
+      },
+      {
+        "subject_name": "Business Law",
+        "subject_code": "LAW703",
+        "marks_obtained": 89
+      }
+    ]
+  },
+  {
+    "studentId": 109,
+    "name": "Neha Das",
+    "age": 21,
+    "gender": "Female",
+    "address": {
+      "street": "45 Residency Road",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "pincode": "380001"
+    },
+    "subjects": [
+      {
+        "subject_name": "Psychology",
+        "subject_code": "PSY801",
+        "marks_obtained": 93
+      },
+      {
+        "subject_name": "Philosophy",
+        "subject_code": "PHI802",
+        "marks_obtained": 88
+      },
+      {
+        "subject_name": "Sociology",
+        "subject_code": "SOC803",
+        "marks_obtained": 86
+      }
+    ]
+  },
+  {
+    "studentId": 110,
+    "name": "Suresh Reddy",
+    "age": 24,
+    "gender": "Male",
+    "address": {
+      "street": "23 MG Circle",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "pincode": "560002"
+    },
+    "subjects": [
+      {
+        "subject_name": "Data Science",
+        "subject_code": "DS901",
+        "marks_obtained": 95
+      },
+      {
+        "subject_name": "Machine Learning",
+        "subject_code": "ML902",
+        "marks_obtained": 90
+      },
+      {
+        "subject_name": "Artificial Intelligence",
+        "subject_code": "AI903",
+        "marks_obtained": 94
+      }
+    ]
+  },
+    {
+    "studentId": 111,
+    "name": "Dangreous",
+    "age": 29,
+    "gender": "Male",
+    "address": {
+      "street": "mannar",
+      "city": "nellore",
+      "state": "ap",
+      "pincode": "500012"
+    },
+    "subjects": [
+      {
+        "subject_name": "jsme",
+        "subject_code": "5161",
+        "marks_obtained": 55
+      },
+      {
+        "subject_name": "html",
+        "subject_code": "5111",
+        "marks_obtained": 90
+      },
+      {
+        "subject_name": "css",
+        "subject_code": "AI903",
+        "marks_obtained": 94
+      }
+    ]
+  }
+]

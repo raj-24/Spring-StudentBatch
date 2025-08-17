@@ -1,0 +1,54 @@
+----For Single File Class----------
+
+package com.example.student.batch;
+
+import java.io.File;
+import java.util.logging.Logger;
+
+import org.springframework.batch.core.StepContribution;
+import org.springframework.batch.core.scope.context.ChunkContext;
+import org.springframework.batch.core.step.tasklet.Tasklet;
+import org.springframework.batch.repeat.RepeatStatus;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+import com.example.student.entity.Student;
+import com.example.student.repository.StudentRepository;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+@Component
+public class StudentTasklet implements Tasklet {
+
+    private static final Logger logger = Logger.getLogger(StudentTasklet.class.getName());
+    private final StudentRepository studentRepository;
+
+    @Value("${batch.file.path}")
+    private String filePath;
+
+    public StudentTasklet(StudentRepository studentRepository) {
+        this.studentRepository = studentRepository;
+    }
+
+    @Override
+    public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext) {
+        logger.info("Starting tasklet to process file: " + filePath);
+        ObjectMapper objectMapper = new ObjectMapper();
+
+        try {
+            File file = new File(filePath);
+            if (!file.exists()) {
+                logger.severe("File not found: " + filePath);
+                return RepeatStatus.FINISHED;
+            }
+
+            Student student = objectMapper.readValue(file, Student.class);
+            logger.info("Successfully parsed student: " + student.getName());
+
+            studentRepository.save(student);
+            logger.info("Student data saved successfully.");
+        } catch (Exception e) {
+            logger.severe("Error processing file: " + e.getMessage());
+        }
+        return RepeatStatus.FINISHED;
+    }
+}
