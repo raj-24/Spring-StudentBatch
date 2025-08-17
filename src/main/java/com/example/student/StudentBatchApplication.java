@@ -10,6 +10,7 @@ public class StudentBatchApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(StudentBatchApplication.class, args);
+		System.out.println("Application is Running Successfully......");
 	}
 
 }
